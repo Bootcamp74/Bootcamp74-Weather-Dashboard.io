@@ -2,7 +2,7 @@ const key = 'fc8bffadcdca6a94d021c093eac22797'
 var city = "chicago"
 
 
-// Fetch response for city name latatude and longitude
+// Fetch request for city name latatude and longitude
 
 requestUrl0 = 'https://api.openweathermap.org/geo/1.0/direct?q='+city+'&limit=5&appid='+key;
 
@@ -16,10 +16,9 @@ fetch(requestUrl0)
     console.log (data[0].lat)
     console.log (data[0].lon)
   });
-// Fetch response for weather
+// Fetch request for weather
 
-
-requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=51.4875167&lon=-0.1687007&appid=fc8bffadcdca6a94d021c093eac22797';
+requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=51.4875167&lon=-0.1687007&appid='+key;
 
 fetch(requestUrl)
   .then(function (response) {
