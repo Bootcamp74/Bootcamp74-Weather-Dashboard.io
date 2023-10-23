@@ -1,5 +1,5 @@
 
-const key = 'fc8bffadcdca6a94d021c093eac22797'
+var key = 'fc8bffadcdca6a94d021c093eac22797'
 var city = document.getElementById("citysearch").value
 var cityTitle= document.getElementById("cityTitle")
 cityTitle.innerHTML = city; 
