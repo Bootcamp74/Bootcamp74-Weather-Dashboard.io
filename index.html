@@ -12,7 +12,7 @@
 
 <body>
     
-    <Header id = "title">
+    <Header id = "mainheader">
         <h1>Weather Dashboard</h1>
     </Header>
 
@@ -41,7 +41,7 @@
 <!-- Main Title Block -->
 
         <div class="col-lg-9" >
-            <div class="border border-3 ">
+            <div id = "title" class="border border-3 ">
                 <div class = "d-flex">
                 <h2 class="weather" id="cityTitle" display: inline></h2>
                 <img id = mainicon>
@@ -55,7 +55,7 @@
 
             <div >
                 <br>
-                    <h5 class="Weather">5 Day Forecast</h5>
+                    <h5 id = "forcast" ="Weather"></h5>
              <br>
             </div> 
 
@@ -63,7 +63,7 @@
 
             <div class =  "d-flex flex-row justify-content-between"> 
 
-                <div class = "fiveDay card" >
+                <div id = "1" class = "fiveDay card" >
                     <div id = "date1" class = "card-header letter"></div>
                     <img id = "icon1"class = "wicon card-img" src="..." alt="Card image cap">
                     <div  id = "temp1"  class = "card-body letter"></div>
@@ -71,15 +71,15 @@
                     <div  id = "humi1"  class = "card-body letter"></div>
                 </div>
 
-                    <div class = "fiveDay card" >
-                        <div id = "date2" class = "card-header letter"></div>
+                    <div id = "2" class = "fiveDay card" >
+                      <div id = "date2" class = "card-header letter"></div>
                         <img id = "icon2"class = "wicon card-img" src="..." alt="Card image cap">
                         <div  id = "temp2"  class = "card-body letter"></div>
                         <div  id = "wind2"  class = "card-body letter"></div>
                         <div  id = "humi2"  class = "card-body letter"></div>
                     </div>
 
-                    <div class = "fiveDay card" >
+                    <div id = "3" class = "fiveDay card" >
                         <div id = "date3" class = "card-header letter"></div>
                         <img id = "icon3"class = "wicon card-img" src="..." alt="Card image cap">
                         <div  id = "temp3"  class = "card-body letter"></div>
@@ -87,7 +87,7 @@
                         <div  id = "humi3"  class = "card-body letter"></div>
                     </div>
         
-                    <div class = "fiveDay card" >
+                    <div id = "4" class = "fiveDay card" >
                         <div id = "date4" class = "card-header letter"></div>
                         <img id = "icon4"class = "wicon card-img" src="..." alt="Card image cap">
                         <div  id = "temp4"  class = "card-body letter"></div>
@@ -95,7 +95,7 @@
                         <div  id = "humi4"  class = "card-body letter"></div>
                     </div>
 
-                    <div class = "fiveDay card " >
+                    <div id = "5" class = "fiveDay card" >
                         <div id = "date5" class = "card-header letter"></div>
                         <img id = "icon5" class = "wicon card-img" src="..." alt="Card image cap">
                         <div  id = "temp5"  class = "card-body letter"></div>
